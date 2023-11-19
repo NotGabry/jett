@@ -15,7 +15,7 @@ func Error(str string, fatal ...bool) {
 
 	fmt.Println(info(" ERROR ") + " " + text(str))
 
-	if fatal[0] {
+	if len(fatal) == 1 && fatal[0] {
 		os.Exit(1)
 	}
 }
