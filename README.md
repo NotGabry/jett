@@ -13,9 +13,9 @@ import "github.com/notgabry/jett"
 
 func main() {
     jett.Error("This is an error log")
-	jett.Warn("This is a warn log")
-	jett.Info("This is an info log")
-	jett.Success("This is a success log")
+    jett.Warn("This is a warn log")
+    jett.Info("This is an info log")
+    jett.Success("This is a success log")
 }
 ```
 This is the example output.  
